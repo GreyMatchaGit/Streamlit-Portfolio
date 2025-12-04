@@ -9,7 +9,7 @@ BORDER_COLOR = "#815355"     # Darker Brick (Used for Image Border)
 TEXT_COLOR = "#b2b2b2"       # Standard Gray text
 
 # Page Config
-st.set_page_config(page_title="Karl Phoenix Portfolio", theme="dark")
+st.set_page_config(page_title="Karl Phoenix Portfolio")
 
 # Custom CSS
 st.markdown(f"""
