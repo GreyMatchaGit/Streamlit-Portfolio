@@ -2,16 +2,14 @@ import streamlit as st
 from streamlit_folium import st_folium
 import folium
 
-# --- 🎨 WARM THEME SETTINGS ---
-# Terra Cotta & Gold Palette
+# Color Scheme
 HIGHLIGHT_COLOR = "#E07A5F"  # Terra Cotta (Used for Name, Emphasis)
 MUTED_COLOR = "#F2CC8F"      # Warm Gold (Used for Tagline)
 BORDER_COLOR = "#815355"     # Darker Brick (Used for Image Border)
 TEXT_COLOR = "#b2b2b2"       # Standard Gray text
-# ------------------------------
 
 # Page Config
-st.set_page_config(page_title="Karl Phoenix Portfolio")
+st.set_page_config(page_title="Karl Phoenix Portfolio", theme="dark")
 
 # Custom CSS
 st.markdown(f"""
