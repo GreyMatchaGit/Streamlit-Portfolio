@@ -45,7 +45,7 @@ with col1:
     st.link_button("LinkedIn", url="https://www.linkedin.com/in/karl-phoenix/", use_container_width=True)
 
     st.divider()
-    resume_data = open("./assets/Cornilla_Karl_Phoenix_Resumea.pdf", "rb").read()
+    resume_data = open("./assets/Cornilla_Karl_Phoenix_Resume.pdf", "rb").read()
     st.download_button(
       "Download Resume",
       data=resume_data,
